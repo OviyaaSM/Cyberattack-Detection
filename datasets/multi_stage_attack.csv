@@ -1,0 +1,6 @@
+timestamp,event_id,computer_id,hostname,user_id,source_ip,destination_ip,event_type,action,status,severity,session_id
+2026-11-20 14:00:00,EVT-MS1,PC-FIN-01,finance-ws01.corp,alice.fin,185.220.101.5,10.0.1.15,FAILED_LOGIN,Credential spray failed password,FAILURE,MEDIUM,
+2026-11-20 14:03:30,EVT-MS2,PC-FIN-01,finance-ws01.corp,alice.fin,185.220.101.5,10.0.1.15,SUCCESSFUL_LOGIN,Initial foothold authentication breach,SUCCESS,HIGH,sess-ms-breach
+2026-11-20 14:10:00,EVT-MS3,SRV-DB-01,sql-prod01.corp,alice.fin,10.0.1.15,10.0.0.20,REMOTE_LOGIN,Remote lateral SSH session established,SUCCESS,HIGH,sess-ms-db
+2026-11-20 14:15:20,EVT-MS4,SRV-DB-01,sql-prod01.corp,alice.fin,10.0.0.20,10.0.0.20,SENSITIVE_FILE_ACCESS,Database dump of financial_accounts table,SUCCESS,CRITICAL,sess-ms-db
+2026-11-20 14:21:40,EVT-MS5,SRV-DB-01,sql-prod01.corp,alice.fin,10.0.0.20,194.26.29.112,LARGE_DATA_TRANSFER,Exfiltrated encrypted dump to drop host,SUCCESS,CRITICAL,sess-ms-db

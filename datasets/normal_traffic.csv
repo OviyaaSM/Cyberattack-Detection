@@ -1,0 +1,11 @@
+timestamp,event_id,computer_id,hostname,user_id,source_ip,destination_ip,event_type,action,status,severity,session_id
+2026-11-20 09:00:00,EVT-N1,PC-FIN-01,finance-ws01.corp,alice.fin,10.0.1.15,10.0.0.5,SUCCESSFUL_LOGIN,User interactive console login,SUCCESS,LOW,sess-al-01
+2026-11-20 09:02:15,EVT-N2,PC-FIN-01,finance-ws01.corp,alice.fin,10.0.1.15,10.0.0.35,FILE_ACCESS,Opened quarterly_budget.xlsx,SUCCESS,LOW,sess-al-01
+2026-11-20 09:05:30,EVT-N3,PC-HR-02,hr-ws02.corp,bob.hr,10.0.1.22,10.0.0.5,SUCCESSFUL_LOGIN,User workstation unlock,SUCCESS,LOW,sess-bob-01
+2026-11-20 09:07:00,EVT-N4,PC-HR-02,hr-ws02.corp,bob.hr,10.0.1.22,10.0.0.35,FILE_ACCESS,Opened onboarding_guide.pdf,SUCCESS,LOW,sess-bob-01
+2026-11-20 09:12:45,EVT-N5,PC-DEV-03,dev-ws03.corp,charlie.dev,10.0.2.45,10.0.0.5,SUCCESSFUL_LOGIN,SSH key login to dev machine,SUCCESS,LOW,sess-char-01
+2026-11-20 09:15:10,EVT-N6,PC-DEV-03,dev-ws03.corp,charlie.dev,10.0.2.45,10.0.0.20,FILE_ACCESS,Read git configuration file,SUCCESS,LOW,sess-char-01
+2026-11-20 09:20:00,EVT-N7,SRV-DC-01,ad-dc01.corp,david.admin,10.0.0.5,10.0.0.5,SUCCESSFUL_LOGIN,Admin directory service maintenance,SUCCESS,LOW,sess-dav-01
+2026-11-20 09:22:30,EVT-N8,SRV-DC-01,ad-dc01.corp,david.admin,10.0.0.5,10.0.0.5,FILE_ACCESS,Rotated audit system log files,SUCCESS,LOW,sess-dav-01
+2026-11-20 09:25:00,EVT-N9,PC-ENG-04,eng-ws04.corp,charlie.dev,10.0.2.88,10.0.0.80,UNUSUAL_NETWORK_CONNECTION,Internal gateway health check ping,SUCCESS,LOW,sess-eng-01
+2026-11-20 09:30:00,EVT-N10,SRV-WEB-01,web-gateway01.corp,sec_auditor,10.0.0.80,10.0.0.80,SUCCESSFUL_LOGIN,Auditor dashboard portal login,SUCCESS,LOW,sess-aud-01

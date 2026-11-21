@@ -1,0 +1,3 @@
+timestamp,event_id,computer_id,hostname,user_id,source_ip,destination_ip,event_type,action,status,severity,session_id
+2026-11-20 11:00:00,EVT-LM1,PC-DEV-03,dev-ws03.corp,charlie.dev,192.168.1.50,10.0.2.45,SUCCESSFUL_LOGIN,Initial foothold login,SUCCESS,LOW,sess-lm-01
+2026-11-20 11:08:30,EVT-LM2,SRV-DC-01,ad-dc01.corp,charlie.dev,10.0.2.45,10.0.0.5,REMOTE_LOGIN,Remote WMI lateral connection,SUCCESS,HIGH,sess-lm-wmi

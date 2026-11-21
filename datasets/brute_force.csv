@@ -1,0 +1,6 @@
+timestamp,event_id,computer_id,hostname,user_id,source_ip,destination_ip,event_type,action,status,severity,session_id
+2026-11-20 10:00:10,EVT-BF1,PC-FIN-01,finance-ws01.corp,alice.fin,198.51.100.44,10.0.1.15,FAILED_LOGIN,Failed password attempt 1,FAILURE,MEDIUM,
+2026-11-20 10:01:05,EVT-BF2,PC-FIN-01,finance-ws01.corp,alice.fin,198.51.100.44,10.0.1.15,FAILED_LOGIN,Failed password attempt 2,FAILURE,MEDIUM,
+2026-11-20 10:01:48,EVT-BF3,PC-FIN-01,finance-ws01.corp,alice.fin,198.51.100.44,10.0.1.15,FAILED_LOGIN,Failed password attempt 3,FAILURE,MEDIUM,
+2026-11-20 10:02:30,EVT-BF4,PC-FIN-01,finance-ws01.corp,alice.fin,198.51.100.44,10.0.1.15,FAILED_LOGIN,Failed password attempt 4,FAILURE,MEDIUM,
+2026-11-20 10:04:15,EVT-BF5,PC-FIN-01,finance-ws01.corp,alice.fin,198.51.100.44,10.0.1.15,SUCCESSFUL_LOGIN,Successful authentication after brute force,SUCCESS,HIGH,sess-bf-breached
